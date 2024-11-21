@@ -1,0 +1,18 @@
+{
+  "name": "lambda_user_email",
+  "version": "1.0.0",
+  "description": "This is a lambda function that sends out mails to users",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
